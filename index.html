@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Play your favorite music</h1>
+        <img
+          src="https://static.abplive.com/wp-content/uploads/sites/2/2020/07/25124250/Dil-Bechara.jpg?impolicy=abp_cdn&imwidth=400"
+        />
+        <input id="range" class="level" type="range" value="0" min="0" />
+        <div class="buttons">
+          <button id="pre"><img src="./images/rewind.png" /></button>
+          <button id="play">
+            <img id="play_img" src="./images/play.png" />
+          </button>
+          <button id="next"><img src="./images/fast-forward.png" /></button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
