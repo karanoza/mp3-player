@@ -25,7 +25,7 @@ function playSong() {
     } else {
       song.pause();
       isPlaying = false;
-      play_img.src = "./images/play.pn";
+      play_img.src = "./images/play.png";
     }
     song.addEventListener("ended", function () {
       song.currentTime = 0;
